@@ -10,7 +10,9 @@ And as you can see, it work very very slowly:
 ![variant2](img/fireg2.gif)
 ![variant3](img/fireg3.gif)
 
-For comparison, you can see how quickly a similar algorithm does work, implemented on pure assembler in the dos system:
+For comparison, you can see below how quickly a similar algorithm does work, implemented on pure assembler in the dos system.
+You can find corresponded binaries in the 'bin' folder of project. 
+And you can properly execute them in the [DOSBox] environment. 
 
 ![FIRE.ASM](img/fireasm.gif)
 
@@ -45,3 +47,6 @@ Or the pascal version (with some inline assembler tricks):
 # AUTHOR
    An0ther0ne
 
+# Links
+
+[DOSBox]: https://www.dosbox.com/
