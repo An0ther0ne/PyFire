@@ -50,4 +50,4 @@ Or the pascal version (with some inline assembler tricks):
 
 # Links
 
-[1]:[DOSBox](https://www.dosbox.com/ "DOSBox offisial site.")
+[1]: https://www.dosbox.com/ "DOSBox offisial site."
