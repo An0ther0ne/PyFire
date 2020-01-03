@@ -49,4 +49,4 @@ Or the pascal version (with some inline assembler tricks):
 
 # Links
 
-[DOSBox]: https://www.dosbox.com/
+[DOSBox](https://www.dosbox.com/)
