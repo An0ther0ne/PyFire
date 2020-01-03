@@ -3,7 +3,8 @@ This is my research about implementation fire effect.
 I wanted to find the simplest and fastest realization that effect with python and pygame.
 Unfortunate, operations with separate pixels in the pygame too slow.
 You can verify this yourself by running the regular version of program:
-	python fireg.py
+    
+		python fireg.py
 
 And as you can see, it work very very slowly:
 
@@ -12,7 +13,7 @@ And as you can see, it work very very slowly:
 
 For comparison, you can see below how quickly a similar algorithm does work, implemented on pure assembler in the dos system.
 You can find corresponded binaries in the 'bin' folder of project. 
-And you can properly execute them in the [DOSBox] environment. 
+And you can properly execute them in the [DOSBox][1] environment. 
 
 ![FIRE.ASM](img/fireasm.gif)
 
@@ -49,4 +50,4 @@ Or the pascal version (with some inline assembler tricks):
 
 # Links
 
-[DOSBox](https://www.dosbox.com/)
+[1]: https://www.dosbox.com/ "DOSBox offisial site."
