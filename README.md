@@ -31,7 +31,8 @@ Or the pascal version (with some inline assembler tricks):
 
 ## Work around
 
-The first way to improve Python responsibility to work with array of pixels little above than small size – is to use NumPy library. But this doesn't optimal  desision because we have been translating arrays from PyGame to Numpy and vice versa. 
+The first way to improve Python responsibility to work with array of pixels little above than small size – is to use NumPy library. 
+But this doesn't optimal decision because we have been translating arrays from PyGame to Numpy and vice versa. 
 The secondary way – use OpenGL library for Python – looks good. Let's try it...
 
 # Requirements:
