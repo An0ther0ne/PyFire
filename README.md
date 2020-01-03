@@ -17,7 +17,9 @@ For comparison, you can see how quickly a similar algorithm does work, implement
 Or the pascal version (with some inline assembler tricks):
 
 ![FIRE.PAS](img/firepas1.gif)
+
 ![FIRE.PAS](img/firepas2.gif)
+
 ![FIRE.PAS](img/firepas3.gif)
 
 # Requirements:
