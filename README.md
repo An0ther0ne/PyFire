@@ -33,12 +33,23 @@ Or the pascal version (with some inline assembler tricks):
 
 The first way to improve Python responsibility to work with array of pixels little above than small size – is to use NumPy library. 
 But this doesn't optimal decision because we have been translating arrays from PyGame to Numpy and vice versa. 
-The secondary way – use OpenGL library for Python – looks good. Let's try it...
+The secondary way is to use OpenCV Python framework with NumPY.
+And the third way is to use OpenGL library for Python.
+
+## Optimized with OpenCV fire demo
+
+This way looks very good and fastest. Like in this GIF:
+
+![Fire with OpenCV GIF](img/firecv2.gif)
+
+In addition I added ability to write all output to video file. Just press a 'V' key to start recording. 
 
 # Requirements:
 
 * Python
 * PyGame
+* NumPY
+* OpenCV
  
 # Project structure:
  
@@ -50,10 +61,12 @@ The secondary way – use OpenGL library for Python – looks good. Let's try it...
  
 ## Files:
 	
-* fireg.py - regular version of fire effect for python & pygame 
-* FIRE.ASM - source of an assembler version
+* [fireg.py](fireg.py) - regular version of fire effect for python & pygame 
+* [firecv2.py](firecv2.py) - version with OpenCV framework
+* [FIRE.ASM](src/FIRE.ASM) - source of assembler version
 * FIRE.EXE - binary of assembler version for DOS system (16 bit)
-* FIREPAS.EXE - binary of borland pascal 7.0 version for DOS system (16 bit) 
+* [FIREPAS.PAS](src/FIREPAS.PAS) - Pascal version source.
+* FIREPAS.EXE - Binary of pascal version for DOS system (Borland Pascal 7.0, 16 bit)
 
 # AUTHOR
    An0ther0ne
