@@ -71,6 +71,4 @@ In addition I added ability to write all output to video file. Just press a 'V' 
 # AUTHOR
    An0ther0ne
 
-# Links
-
 [1]: https://www.dosbox.com/ "DOSBox offisial site."
