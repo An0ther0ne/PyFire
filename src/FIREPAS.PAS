@@ -1,3 +1,5 @@
+{$A+,B-,D+,E-,F+,G+,I-,L+,N+,O-,P-,Q-,R-,S-,T+,V+,X+,Y+}
+{$M 32768,0,655360}
 uses    asmsourc,crt;
         procedure SetGraphMode;external;{$l graph}
         procedure SetTextMode;external;
@@ -123,7 +125,7 @@ VAR
                   add     al,ds:[si+320]
                   adc     ah,0
                   mov     dl,ds:[si+640]
-                  mov     ah,0
+                  mov     dh,0
                   add     dl,ds:[si+960]
                   adc     dh,0
                   shr     dx,1
@@ -159,7 +161,7 @@ VAR
                   add     al,ds:[si+320]
                   adc     ah,0
                   mov     dl,ds:[si+640]
-                  mov     ah,0
+                  mov     dh,0
                   add     dl,ds:[si+960]
                   adc     dh,0
                   shr     dx,1
