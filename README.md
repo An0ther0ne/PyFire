@@ -63,7 +63,7 @@ In addition I added ability to write all output to video file. Just press a 'V' 
 	
 * [fireg.py](fireg.py) - regular version of fire effect for python & pygame 
 * [firecv2.py](firecv2.py) - version with OpenCV framework
-* [FIRE.ASM](src/FIRE.ASM) - source of assembler version
+* [FIRE.ASM](src/FIRE.ASM) - assembler source version
 * FIRE.EXE - binary (assembler) for DOS (16 bit)
 * [FIRE.COM](bin/FIRE.COM) - 256b INTRO version for DOS
 * [FIRE.ASS](src/FIRE.ASS) - 256b INTRO version source code
