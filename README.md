@@ -65,6 +65,8 @@ In addition I added ability to write all output to video file. Just press a 'V' 
 * [firecv2.py](firecv2.py) - version with OpenCV framework
 * [FIRE.ASM](src/FIRE.ASM) - source of assembler version
 * FIRE.EXE - binary of assembler version for DOS system (16 bit)
+* [FIRE.COM](bin/FIRE.COM) - 256b INTRO version for DOS
+* [FIRE.ASS](src/FIRE.ASS) - 256b INTRO version source code
 * [FIREPAS.PAS](src/FIREPAS.PAS) - Pascal version source.
 * FIREPAS.EXE - Binary of pascal version for DOS system (Borland Pascal 7.0, 16 bit)
 

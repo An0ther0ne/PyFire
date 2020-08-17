@@ -61,6 +61,8 @@ while(True):
 		write2video = True
 		cv2.destroyWindow(title1)
 		video = cv2.VideoWriter(videofilename, fourcc, float(FPS), (width,height))
+	#~ elif key != 255:
+		#~ print(key)
 if write2video:		
 	print("Finalizing video. Total {} frames saved to file {}\n".format(frames, videofilename))
 	video.release()
