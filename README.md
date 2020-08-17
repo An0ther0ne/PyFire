@@ -68,7 +68,7 @@ In addition I added ability to write all output to video file. Just press a 'V' 
 * [FIRE.COM](bin/FIRE.COM) - 256b INTRO version for DOS
 * [FIRE.ASS](src/FIRE.ASS) - 256b INTRO version source code
 * [FIREPAS.PAS](src/FIREPAS.PAS) - Pascal version source.
-* FIREPAS.EXE - Binary of pascal version for DOS system (Borland Pascal 7.0, 16 bit)
+* FIREPAS.EXE - Binary of pascal version for DOS (Borland Pascal 7.0, 16 bit)
 
 # AUTHOR
    An0ther0ne
